@@ -22,7 +22,7 @@ app.use((req,res,next) => {
 });
 
 //define error-handling middlewarre last, after orther app.use() and routes calls
-app.use((err, req,res,next)=>{
+app.use((err, req, res, next)=>{
     //middleware xu ly loi tap trung
     //trong cac doan code xu ly route, goi next(error)
     //se chuyen ve middleware xu ly loi nay
